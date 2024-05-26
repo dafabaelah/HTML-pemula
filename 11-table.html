@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabel</title>
+</head>
+<body>
+    <table border="1" cellpadding="5" cellspacing="0">
+    <!-- <table>: Elemen ini digunakan untuk membuat tabel utama. Semua elemen tabel harus berada di dalam elemen <table>. -->
+        <caption>Table Caption</caption>
+        <colgroup>
+            <col style="background-color: yellow;">
+            <col style="background-color: lightblue;">
+            <col style="background-color: lightgreen;">
+        </colgroup>
+        <thead>
+        <!-- <thead>: Elemen ini digunakan untuk mengelompokkan baris-baris yang berisi header atau judul kolom tabel. Biasanya, elemen <thead> ditempatkan di dalam elemen <table> sebelum elemen <tbody>. -->
+            <tr>
+                <th scope="col">Header 1</th>
+                <!-- <th>: Elemen ini digunakan untuk mendefinisikan sel header atau judul kolom dalam tabel. Biasanya, elemen <th> ditempatkan di dalam elemen <tr> di dalam elemen <thead>. -->
+                <th scope="col">Header 2</th>
+                <th scope="col">Header 3</th>
+            </tr>
+        </thead>
+        <tbody>
+        <!-- <tbody>: Elemen ini digunakan untuk mengelompokkan baris-baris yang berisi data utama dalam tabel. Biasanya, elemen <tbody> ditempatkan di dalam elemen <table> setelah elemen <thead>. -->
+            <tr>
+                <td>Data 1</td>
+                <td>Data 2</td>
+                <!-- <td>: Elemen ini digunakan untuk mendefinisikan sel data dalam tabel. Biasanya, elemen <td> ditempatkan di dalam elemen <tr> di dalam elemen <tbody>. -->
+                <td>Data 3</td>
+            </tr>
+            <tr>
+            <!-- <tr>: Elemen ini digunakan untuk mendefinisikan baris dalam tabel. Setiap baris dalam tabel harus ditempatkan di dalam elemen <tr>. -->
+                <td>Data 4</td>
+                <td>Data 5</td>
+                <td>Data 6</td>
+            </tr>
+        </tbody>
+        <tfoot>
+        <!-- <tfoot>: Elemen ini digunakan untuk mengelompokkan baris-baris yang berisi footer atau informasi tambahan pada tabel. Biasanya, elemen <tfoot> ditempatkan di dalam elemen <table> setelah elemen <tbody>. -->
+            <tr>
+                <td colspan="3">Table Footer</td>
+            </tr>
+        </tfoot>
+    </table>
+    <!-- Tabel ini menggunakan atribut border="1" untuk menampilkan garis tepi tabel dengan ketebalan 1 piksel, cellpadding="5" untuk memberikan jarak antara isi sel dan tepi sel sebesar 5 piksel, dan cellspacing="0" untuk menghilangkan jarak antara sel-sel tabel. -->
+</body>
+</html>

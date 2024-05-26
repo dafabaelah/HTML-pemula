@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>audio</title>
+</head>
+<body>
+    <audio controls>
+        <!-- Ini adalah tag pembuka untuk elemen <audio>. Tag ini digunakan untuk menyisipkan audio ke dalam halaman web. Atribut controls menambahkan kontrol pemutaran audio standar seperti tombol play, pause, dan volume. -->
+        <source src="https://samplelib.com/lib/preview/mp3/sample-6s.mp3" type="audio/mpeg">
+        <!-- Ini adalah tag <source> yang digunakan untuk menentukan sumber audio yang akan diputar. Atribut src menentukan URL atau path file audio yang akan dimuat. Dalam contoh ini, file audio dengan nama "audio-file.mp3" akan dimuat. Atribut type menentukan jenis MIME dari file audio, dalam hal ini adalah "audio/mpeg" yang merupakan format MP3. -->
+        <source src="audio-file.ogg" type="audio/ogg">
+        <!-- Ini adalah tag <source> kedua yang menentukan sumber audio alternatif dalam format OGG. Jika browser tidak mendukung format MP3, maka browser akan mencoba memuat file audio dengan format OGG. -->
+        Your browser does not support the audio element.
+    </audio>
+
+</body>
+</html>
